@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   // Brand Colors (Logo Based)
-  static const Color primaryGold = Color(0xFFCFB53B);
+  static const Color primaryGold = Color(0xFFF9A826);
   static const Color primaryGreen = Color(0xFF4CAF50);
 
   // Background Colors
-  static const Color scaffoldDarkBackground = Color(0xFF121212);
-  static const Color appBarDarkBackground = Color(0xFF000000);
-  static const Color surfaceDark = Color(0xFF1E1E1E);
-  static const Color bottomNavDark = Color(0xFF1A1A1A);
+  static const Color scaffoldDarkBackground = Color(0xFF131313);
+  static const Color appBarDarkBackground = Color(0xFF131313);
+  static const Color surfaceDark = Color(0xFF2A2A2A);
+  static const Color bottomNavDark = Color(0xFF131313);
 
   // Text Colors
   static const Color textLight = Colors.white;

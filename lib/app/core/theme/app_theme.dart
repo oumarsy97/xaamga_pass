@@ -3,24 +3,15 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   // Premium Colors
-  static const Color primaryBlack = Color(0xFF050505); // Deepest Black
-  static const Color surfaceDark = Color(
-    0xFF141414,
-  ); // Slightly lighter for cards
-  static const Color goldAccent = Color.fromARGB(
-    255,
-    180,
-    141,
-    12,
-  ); // Metallic Gold
+  static const Color primaryBlack = Color(0xFF0D0D0D); // Deepest Dark (from xaamga)
+  static const Color surfaceDark = Color(0xFF1E1E1E); // Slightly lighter for cards (from xaamga)
+  static const Color goldAccent = Color(0xFFF9A826); // Vibrant Gold (from xaamga)
   static const Color premiumPurple = Color(0xFF9D50FF); // Vibrant Purple
   static const Color softGrey = Color(0xFF9E9E9E); // Secondary text
 
   // Semantic Aliases
   static const Color darkBackgroundColor = primaryBlack;
-  static const Color bottomNavBackgroundColor = Color(
-    0xFF1E1E1E,
-  ); // Keep slightly lighter for contrast (or glass)
+  static const Color bottomNavBackgroundColor = primaryBlack; // Match xaamga
   static const Color goldColor = goldAccent;
 
   // Spacing
